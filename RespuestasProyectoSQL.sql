@@ -32,7 +32,7 @@ from film as f
 order by f.length asc
 
 /*6. Encuentra el nombre y apellido de los actores que tengan ‘Allen en su apellido*/
-/*Ya que la BBDD tiene los nombres en mayusculas he usado 'Allen' pero lo he adaptado la BBDD*/
+-- Ya que la BBDD tiene los nombres en mayusculas he usado 'Allen' pero lo he adaptado la BBDD
 select 
 	concat(a.first_name, ' ', a.last_name) as nombre_completo 
 from actor as a

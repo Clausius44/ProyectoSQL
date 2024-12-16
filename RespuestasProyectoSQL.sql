@@ -1,6 +1,6 @@
-/*DataProject: Lógica Consultas SQL
- * 
- *  2. Muestra los nombres de todas las películas con una clasificación por
+/*DataProject: Lógica Consultas SQL*/
+ 
+/*2. Muestra los nombres de todas las películas con una clasificación por
 edades de 'R'. */
 select 
 	f.title as titulo 
